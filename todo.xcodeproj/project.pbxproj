@@ -13,6 +13,7 @@
 		2F8D187025E4E168009FE9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D186E25E4E168009FE9D8 /* Main.storyboard */; };
 		2F8D187225E4E16A009FE9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D187125E4E16A009FE9D8 /* Assets.xcassets */; };
 		2F8D187525E4E16A009FE9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D187325E4E16A009FE9D8 /* LaunchScreen.storyboard */; };
+		2F8D187F25E4E20B009FE9D8 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D187E25E4E20B009FE9D8 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2F8D187125E4E16A009FE9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F8D187425E4E16A009FE9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F8D187625E4E16A009FE9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F8D187E25E4E20B009FE9D8 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2F8D186A25E4E168009FE9D8 /* SceneDelegate.swift */,
 				2F8D186C25E4E168009FE9D8 /* ViewController.swift */,
 				2F8D186E25E4E168009FE9D8 /* Main.storyboard */,
+				2F8D187E25E4E20B009FE9D8 /* NextViewController.swift */,
 				2F8D187125E4E16A009FE9D8 /* Assets.xcassets */,
 				2F8D187325E4E16A009FE9D8 /* LaunchScreen.storyboard */,
 				2F8D187625E4E16A009FE9D8 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F8D186D25E4E168009FE9D8 /* ViewController.swift in Sources */,
+				2F8D187F25E4E20B009FE9D8 /* NextViewController.swift in Sources */,
 				2F8D186925E4E168009FE9D8 /* AppDelegate.swift in Sources */,
 				2F8D186B25E4E168009FE9D8 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.masa.todo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.masa.todo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
